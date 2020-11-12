@@ -7,11 +7,13 @@ namespace FactoryPatternApp
 {
     class ConsoleLogging
     {
-        public static void PhoneBuildDialogue()
+
+        // This activates when the selected Car Class File runs, as it literally calls for it in it's statement. 
+        public static void AutomobileBuildDialogue()
         {
-            Console.WriteLine("Gathering phone tools!");
+            Console.WriteLine("Ordering From Ebay Motors");
             Thread.Sleep(1000);
-            Console.WriteLine("Constructing build kit!");
+            Console.WriteLine("Being Shipped..");
             Thread.Sleep(1000);
         }
     }
